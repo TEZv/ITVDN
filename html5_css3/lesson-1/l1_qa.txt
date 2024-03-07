@@ -2,17 +2,24 @@ Q: Який має бути формат файлу для веб сторінк
 A: .html
 
 Q: Що таке тег? Перерахуйте які ви запам'ятали.
-A: Tag - the HTML markup element, that describes its essence.
+A: `A tag` - the HTML markup element, that describes its essence.
+   `A tag` is the fundamental building block of HTML. 
+   `A tag` represents an element or item within a web page, 
+   such as a heading, list, text paragraph, or image. 
 
 -> TOP-LEVEL ELEMENTS: 
 <html>
 <head>
-<meta>
-<title></title>
 </head>
 <body>
 </body>
 </html>
+
+-> ADDITIONAL ELEMENTS in the <head></head> tag: 
+<head>
+<meta charset="UTF-8" name="" content="" http-equiv="">
+<title></title>
+</head>
 
 -> BLOCK ELEMENTS: 
 <h1></h1>
