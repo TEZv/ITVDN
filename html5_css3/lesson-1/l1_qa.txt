@@ -1,7 +1,7 @@
-Q: Який має бути формат файлу для веб сторінки?
+Q: What should be the file format for the web page?
 A: .html
 
-Q: Що таке тег? Перерахуйте які ви запам'ятали.
+Q: What is tag? List which you remember.
 A: `A tag` - the HTML markup element, that describes its essence.
    `A tag` is the fundamental building block of HTML. 
    `A tag` represents an element or item within a web page, 
@@ -31,17 +31,17 @@ A: `A tag` - the HTML markup element, that describes its essence.
 <img></img> (inline-block)
 <span></span>
 
-Q: Як створити автозаповнення у редакторі VSCode початкову розмітку?
+Q: How to create autofill in VSCode initial markup editor?
 A: Tap ! (exclamation mark) on the keyboard and then click enter
 
-Q: Яка конструкція тега коментаря?
+Q: What is the construction of the comment tag?
 A: HTML: <!--HERE'S YOUR COMMENT--->
 
-Q: Назвіть плагін VSCode для оновлення сторінки.
+Q: Name the VSCode plugin to update the store.
 A: Live Server extension
 
-Q: Назвіть комбінацію клавіш, щоб зберегти зміни в коді. 
-Які ще пам'ятаєте комбінації інших дій?
+Q: Name the key combination to save the code changes.
+What other combinations of other actions do you remember?
 A: Tap combination Ctrl+S on the keyboard for saving the file;
    Tap combination Ctrl+Shift+S on the keyboard for saving the file AS;
    Ctrl+O - Open the file, Ctrl+N  - New file
