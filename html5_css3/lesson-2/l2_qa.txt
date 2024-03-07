@@ -1,40 +1,89 @@
-Q: Який має бути формат файлу для веб сторінки?
-A: .html
+Q: What are the formats for images?
+A:jpeg (jpg), svg, png, gif
 
-Q: Що таке тег? Перерахуйте які ви запам'ятали.
-A: Tag - the HTML markup element, that describes its essence.
+Q: How to set the size of the picture?
+A: <img width="100px" height="100px"> --> 
+   SO, width="" and height="" attributes
 
--> STRUCTURE ELEMENTS: 
-<html>
-<head>
-</head>
-<body>
-</body>
-</html>
+Q: What is the difference between block and inline elements?
+A: ``Block`` 
+    elements occupy ALL the WIDTH available to them and 
+    the HEIGHT of the element is determined by its content 
+    (text or other nested element).
 
--> BLOCK ELEMENTS: 
-<h1></h1>
-<p></p>
-<div></div>
+    ``Inline`` 
+    elements are tags that 
+    behave like PLAIN text 
+    and may well be placed 
+    INSIDE the BLOCK element. 
+    
+    Mainly designed to change 
+    the appearance of the text.
 
--> INLINE ELEMENTS: 
-<a></a>
-<img></img> (inline-block)
-<span></span>
+Q: What link variations exist?
+A: Absolute (https://example.ua/) and relative(../css/styles.css)
 
-Q: Як створити автозаповнення у редакторі VSCode початкову розмітку?
-A: Tap ! (exclamation mark) on the keyboard and then click enter
+   🔗``Anchor Links (<a>)``: 
+   Anchor links are the most common type of link in HTML. 
 
-Q: Яка конструкція тега коментаря?
-A: HTML: <!--HERE'S YOUR COMMENT--->
+   They are used to create hyperlinks to other web pages, files, 
+   locations within the same page, or specific parts of a page 
+   (using fragment identifiers).
 
-Q: Назвіть плагін VSCode для оновлення сторінки.
-A: Live Server extension
+   <a href="https://example.com">Link to Example</a>
+   <a href="#section2">Link to Section 2</a>
 
-Q: Назвіть комбінацію клавіш, щоб зберегти зміни в коді. 
-Які ще пам'ятаєте комбінації інших дій?
-A: Tap combination Ctrl+S on the keyboard for saving the file;
-   Tap combination Ctrl+Shift+S on the keyboard for saving the file AS;
-   Ctrl+O - Open the file, Ctrl+N  - New file
+   🔗``Image Links``: 
+   Images can also be used as links by wrapping an <img> tag 
+   within an anchor <a> tag.
 
-   Also, there exists a file auto-saving in VSCode (check Auto Save)
+   <a href="https://example.com">
+     <img src="image.jpg" alt="Image Link">
+   </a>
+
+   🔗``Email Links (mailto:)``: 
+   Email links allow users to compose emails to 
+   a specified email address when clicked.
+
+   <a href="mailto:info@example.com">Send Email</a>
+
+   🔗``External Links (target="_blank")``: 
+   Links that open in a new browser tab or window can be created 
+   by adding the target="_blank" attribute to the anchor tag.
+
+   <a href="https://example.com" target="_blank">Open in New Tab</a>
+
+   🔗``Download Links``: 
+   Links can be used to download files by specifying 
+   the file path in the href attribute.
+
+   <a href="file.pdf" download>Download PDF</a>
+
+   🔗``Internal Links``: 
+   Internal links are used to navigate within the same website, 
+   typically linking to other pages or sections within the same page.
+
+   <a href="/about">About Us</a>
+   <a href="#section2">Jump to Section 2</a>
+
+   🔗``Targeting Specific Frames or Windows``: 
+   Links can also target specific frames or windows 
+   in a frameset by using the target attribute.
+
+   <a href="page.html" target="frame_name">Open in Frame</a>
+
+Q: Which element nesting would be wrong?
+A: BLOCK elements -> INLINE elements
+
+   ``NOT RIGHT``:
+   <h1>Heading 1
+     <h2>Subheading 1.1</h2>
+   </h1>
+
+   <ul>
+    <li>List 1
+        <ul>
+            <li>Sublist 1.1</li>
+        </ul>
+    </li>
+   </ul>
