@@ -5,6 +5,7 @@
 ```
 ITVDN/
 |-- html5_css3/
+|   |-- .pdf/               # Contains the tasks in the .pdf format
 |   |-- lesson-1/
 |   |   |-- task1/          # Basic structure and <h1>, <p>
 |   |   |-- task2/          # Basic structure and <h1>, <h2>, <h3>, <p>
