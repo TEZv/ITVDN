@@ -1,0 +1,42 @@
+Q: Який має бути формат файлу для веб сторінки?
+A: .html
+
+Q: Що таке тег? Перерахуйте які ви запам'ятали.
+A: Tag - the HTML markup element, that describes its essence.
+
+-> STRUCTURE ELEMENTS: 
+<html>
+<head>
+<meta>
+<title></title>
+</head>
+<body>
+</body>
+</html>
+
+-> BLOCK ELEMENTS: 
+<h1></h1>
+<p></p>
+<div></div>
+
+-> INLINE ELEMENTS: 
+<a></a>
+<img></img> (inline-block)
+<span></span>
+
+Q: Як створити автозаповнення у редакторі VSCode початкову розмітку?
+A: Tap ! (exclamation mark) on the keyboard and then click enter
+
+Q: Яка конструкція тега коментаря?
+A: HTML: <!--HERE'S YOUR COMMENT--->
+
+Q: Назвіть плагін VSCode для оновлення сторінки.
+A: Live Server extension
+
+Q: Назвіть комбінацію клавіш, щоб зберегти зміни в коді. 
+Які ще пам'ятаєте комбінації інших дій?
+A: Tap combination Ctrl+S on the keyboard for saving the file;
+   Tap combination Ctrl+Shift+S on the keyboard for saving the file AS;
+   Ctrl+O - Open the file, Ctrl+N  - New file
+
+   Also, there exists a file auto-saving in VSCode (check Auto Save)
