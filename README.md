@@ -8,7 +8,9 @@ ITVDN/
 |   |-- lesson-1/
 |   |   |-- task1/          # Basic structure and <h1>, <p>
 |   |   |-- task2/          # Basic structure and <h1>, <h2>, <h3>, <p>
-|   |-- lesson-2/           # Contains 
+|   |   |-- l1_index.txt    # Contains Q&A from the task    
+|   |-- lesson-2/
+           
 |   |-- lesson-3/           # Contains
 |   |-- lesson-4/           
 |   |-- lesson-5/ 
