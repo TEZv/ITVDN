@@ -4,7 +4,7 @@ A: .html
 Q: Що таке тег? Перерахуйте які ви запам'ятали.
 A: Tag - the HTML markup element, that describes its essence.
 
--> STRUCTURE ELEMENTS: 
+-> TOP-LEVEL ELEMENTS: 
 <html>
 <head>
 <meta>
