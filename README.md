@@ -16,9 +16,11 @@ ITVDN/
 |   |   |-- task2/          # Usage of relative/absolute, anchor links
 |   |   |-- l2_qa.txt       # Contains Q&A from the task   
 |   |-- lesson-3/
-|   |   |--additional_task  # Set 3 images to 200px/200px
-|   |   |-- task1/          # <b>, <i>, id=""
-|   |   |-- task2/          # Basic structure and <h1>, <h2>, <h3>, <p>
+|   |   |--additional_task  # Set inline styles to 4 <p>
+|   |   |-- task1/          # Usage of tag/class/id selectors, +style="" attribute
+|   |   |-- task2/          # Usage of !important and re-assigning classes (implements the last one)
+|   |   |-- task3/          # Usage of <span>, <b>, <i>, set styles to them
+|   |   |-- task4/          # Usage of tag and class selectors; background-color and color properties
 |   |   |-- l3_qa.txt       # Contains Q&A from the task
 |   |-- lesson-4/
 |   |   |--additional_task  # Add additional
