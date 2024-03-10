@@ -26,6 +26,10 @@ ITVDN/
 |   |   |--additional_task  # Add additional
 |   |   |-- task1/          # Basic structure and <h1>, <p>
 |   |   |-- task2/          # Basic structure and <h1>, <h2>, <h3>, <p>
+|   |   |-- task3/          # Basic structure and <h1>, <p>
+|   |   |-- task4/          # Basic structure and <h1>, <h2>, <h3>, <p>
+|   |   |-- task5/          # Basic structure and <h1>, <p>
+|   |   |-- task6/          # Basic structure and <h1>, <h2>, <h3>, <p>
 |   |   |-- l4_qa.txt       # Contains Q&A from the task        
 |-- javascript_basics/                    
 |-- README.md                
