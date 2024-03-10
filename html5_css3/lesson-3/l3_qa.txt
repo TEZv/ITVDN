@@ -1,0 +1,55 @@
+Q: How many ways are there to connect styles?
+A: 🔸Inline (<a style="background-color: blue;"></a>), 
+   🔸internal (<head><style>h1{background-color: blue;}</style></head>), 
+   🔸external (style.css -> 
+               `HTML`: <a class="footer-social-links"></a> ---> 
+               `CSS`: .footer-social-links {background-color: blue;})
+
+Q: What are the types of selectors? What are their differences?
+A: 🔹`id` selector --> #selector {} (unique)
+   🔹`class` selector --> .selector {} (not unique | multiple declarations)
+   🔹`tag` selector --> p {}
+--------------------------------------------------------------------------------------------------
+Q: What is the numerical priority value of selectors?
+A:    <style>
+          /* `Identifier` (id): high priority = 100 */
+          #alert{
+            background: green;
+            background: aqua;
+          }
+          /* `Class` (class): middle priority  = 10 */
+          .paragraph {
+            background: blue;
+          }
+          /* `Tag` name (tag): low priority = 1 */
+          p {
+            background: gold;
+          }
+      </style>
+    <!-- Attribute style priority = 1000 -->
+    <p class="paragraph" id="alert" style="background: red;">Lorem ipsum dolor sit amet.</p>
+--------------------------------------------------------------------------------------------------
+Q: How does ! important work?
+A:    <style>
+        / *! important interrupts everything and it is recommended to avoid its use */
+        / *! important to use only in extreme cases */
+        #alert {
+          background: green;
+        }
+        .paragraph {
+          background: green !important;  / *! important overrides */
+        }
+        .paragraph {
+          background: blue;
+        }
+        p {
+          background: gold!important;    / *! important overrides */
+        }
+    </style>
+    
+    <p id="alert" class="paragraph">Lorem, ipsum dolor.</p>
+    <p id="alert" class="paragraph">Lorem, ipsum dolor.</p>
+---------------------------------------------------------------------------------------
+Q: Is it possible to prescribe two classes of one html element?
+A: 📍The order of class names in an attribute does not affect priority
+   📍One element can have *many* `class` names
