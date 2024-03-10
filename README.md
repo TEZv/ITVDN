@@ -23,14 +23,20 @@ ITVDN/
 |   |   |-- task4/          # Usage of tag and class selectors; background-color and color properties
 |   |   |-- l3_qa.txt       # Contains Q&A from the task
 |   |-- lesson-4/
-|   |   |--additional_task  # Add additional
-|   |   |-- task1/          # Basic structure and <h1>, <p>
-|   |   |-- task2/          # Basic structure and <h1>, <h2>, <h3>, <p>
-|   |   |-- task3/          # Basic structure and <h1>, <p>
-|   |   |-- task4/          # Basic structure and <h1>, <h2>, <h3>, <p>
-|   |   |-- task5/          # Basic structure and <h1>, <p>
-|   |   |-- task6/          # Basic structure and <h1>, <h2>, <h3>, <p>
-|   |   |-- l4_qa.txt       # Contains Q&A from the task        
+|   |   |--additional_task  # Create <div class="container"> and set {width: 200px; height: 200px;} to it
+|   |   |-- task1/          # Set padding%/width% to icons, add <img src="">
+|   |   |-- task2/          # Set padding, background-color to <p>
+|   |   |-- task3/          # Set border-left-width, border-left-style and its color to <p>
+|   |   |-- task4/          # Set <a href=".html"></a>, padding, add bg-color to .main-title {}
+|   |   |-- task5/          # Set padding, border, margin to <p>
+|   |   |-- task6/          # Set width%, padding, border to <div class="element">, <button>
+|   |   |-- l4_qa.txt       # Contains Q&A from the task    
+|   |-- lesson-5/
+|   |   |--additional_task  # Create <div class="container"> and set {width: 200px; height: 200px;} to it
+|   |   |-- task1/          # Set padding%/width% to icons, add <img src="">
+|   |   |-- task2/          # Set padding, background-color to <p>
+|   |   |-- task3/          # Set border-left-width, border-left-style and its color to <p>
+|   |   |-- l5_qa.txt       # Contains Q&A from the task      
 |-- javascript_basics/                    
 |-- README.md                
 ```
