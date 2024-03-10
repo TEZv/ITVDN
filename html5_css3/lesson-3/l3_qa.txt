@@ -1,3 +1,8 @@
+Q: What is universal attributes?
+A: 🔹 title, style and others related to universals -->
+      https://html-css.co.ua/html/universal-atributi/
+        🧩<p title="" class="" id="" style="">Universal</p>
+
 Q: How many ways are there to connect styles?
 A: 🔸Inline (<a style="background-color: blue;"></a>), 
    🔸internal (<head><style>h1{background-color: blue;}</style></head>), 
