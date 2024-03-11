@@ -6,37 +6,47 @@
     <title>HTML-CSS Lesson-5 Task-3 ITVDN</title>
 
     <style>
-      p {
-        font-size: 30px;
+      .panel {
+        background-color: gold;
+        padding: 100px;
+      }
+      .block {
+        border: 4px solid black;
+        width: 100px;
+        margin-right: 100px;
         padding: 25px;
-        border-left-width: 5px;
-        border-left-style: solid;
       }
-      .green {
-        background-color: lightgreen;
-        border-left-color: green;
+      .facebook {
+        background-color: blue;
       }
-  
-      .blue {
+      .youtube {
+        background-color: red;
+      }
+      .instagram {
+        background-color: pink;
+      }
+      .twitter {
         background-color: aqua;
-        border-left-color: blue;
-      }
-  
-      .yellow {
-        background-color: yellow;
-        border-left-color: gold;
-      }
-  
-      .red {
-        background-color: lightpink;
-        border-left-color: red;
       }
     </style>
   </head>
   <body>
-    <p class="green">Success! Data saved successfully</p>
-    <p class="blue">Info! Data can be edited</p>
-    <p class="yellow">Warning! Data not saved</p>
-    <p class="red">Unsafe! Data will be permanently deleted</p>
+    <div class="panel">
+      <a href="https://uk-ua.facebook.com/"
+        ><img src="images/facebook.png" alt="facebook" class="facebook block"
+      /></a>
+      <a href="https://www.youtube.com/"
+        ><img src="images/-youtube.png" alt="youtube" class="youtube block"
+      /></a>
+      <a href="https://www.instagram.com/"
+        ><img
+          src="images/instagram.png"
+          alt="instagram"
+          class="instagram block"
+      /></a>
+      <a href="https://twitter.com/"
+        ><img src="images/twitter.png" alt="twitter" class="twitter block"
+      /></a>
+    </div>
   </body>
 </html>
