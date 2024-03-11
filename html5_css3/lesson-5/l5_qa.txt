@@ -1,0 +1,24 @@
+Q: Does margin take negative values?
+A:🔹margin: -3px; margin: -2px;
+  🔸Yes, `margin-` can have negative values, it moves the elements 
+  to the opposite position than it does `margin-` rule ⬆️⬇️
+  margin-top: -3px == margin-bottom: 3px
+----------------------------------------------------------------------
+Q: How can I center a block element?
+A:🔹 margin: 0 auto; --> center horizontally
+  🔸margin: auto auto; --> center horizontally (margin can't auto vertically)
+----------------------------------------------------------------------
+Q: What is a sinkhole (collapse)?
+A:🔹 A sinkhole, in front-end development, 
+    refers to UNEXPECTED layout collapses caused by IMPROPER margin usage. 
+   
+    🔸It occurs when margins between elements are not properly managed, 
+    leading to elements COLLAPSING or MIS-ALIGNING within the layout. 
+    
+    🔸For example, if margins are inconsistently applied to elements 
+    in a grid layout, it can result in visual inconsistencies 
+    and disruptions in the design.
+----------------------------------------------------------------------
+Q: Can I change the item type? How?
+A:🔹`display: inline-block` --> inline+block rules (can have width and height)
+  🔸`display: block` to inline and inverse `inline` to `block`
