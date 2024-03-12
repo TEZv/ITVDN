@@ -37,6 +37,33 @@ ITVDN/
 |   |   |-- task2/          # Set margin-left: auto; margin-right: 20px; to <p></p>
 |   |   |-- task3/          # Set padding, margin, border to <a><img></a>
 |   |   |-- l5_qa.txt       # Contains Q&A from the task      
+|   |-- lesson-6/
+|   |   |--additional_task  # Set font-family: Arial; to body {}
+|   |   |-- task1/          # Practice with: text-align, line-height, font-family, text-decoration, 
+                                        font-style, font-size, word-spacing, letter-spacing, text-indent
+|   |   |-- task2/          # Set text-align: center; line-height: 50px; to <div></div>
+|   |   |-- task3/          # Set vertical-align: middle; to <img></img>, set line-height: 40px; to <button>
+|   |   |-- l6_qa.txt       # Contains Q&A from the task  
+|   |-- lesson-7/
+|   |   |--additional_task  # Set margin: 100px auto; to <h1 class="title"></h1>
+|   |   |-- task1/          # Set display: inline-block; to <a href="./index.html"></a>
+|   |   |-- task2/          # Set margin-left: auto; margin-right: 20px; to <p></p>
+|   |   |-- l7_qa.txt       # Contains Q&A from the task  
+|   |-- lesson-8/
+|   |   |--additional_task  # Set margin: 100px auto; to <h1 class="title"></h1>
+|   |   |-- task1/          # Set display: inline-block; to <a href="./index.html"></a>
+|   |   |-- task2/          # Set margin-left: auto; margin-right: 20px; to <p></p>
+|   |   |-- l7_qa.txt       # Contains Q&A from the task  
+|   |-- lesson-9/
+|   |   |--additional_task  # Set margin: 100px auto; to <h1 class="title"></h1>
+|   |   |-- task1/          # Set display: inline-block; to <a href="./index.html"></a>
+|   |   |-- task2/          # Set margin-left: auto; margin-right: 20px; to <p></p>
+|   |   |-- l7_qa.txt       # Contains Q&A from the task  
+|   |-- lesson-10/
+|   |   |--additional_task  # Set margin: 100px auto; to <h1 class="title"></h1>
+|   |   |-- task1/          # Set display: inline-block; to <a href="./index.html"></a>
+|   |   |-- task2/          # Set margin-left: auto; margin-right: 20px; to <p></p>
+|   |   |-- l7_qa.txt       # Contains Q&A from the task  
 |-- javascript_basics/                    
 |-- README.md                
 ```
