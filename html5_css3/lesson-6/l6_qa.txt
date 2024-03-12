@@ -1,0 +1,71 @@
+Q: Tell us how inheritance works.
+A:🔹Inherited characteristics are most of those rules,
+    which affect text behavior:
+
+    -->💡text-align,
+    -->💡color, font,
+    -->💡letter-spacing, word-spacing-spacing etc.
+
+  🔸<div>
+        <h2>
+            <span></span>
+        </h2>
+        <p>
+           <b></b>
+        </p>
+    </div>
+    <p></p>
+
+    🔹🔸==> <div></div> styles WILL be APPLIED to <h2> and its <span>, inline <p> and its <b>
+    🔹🔸==> <div></div> styles will NOT be APPLIED to <h2> and its <span>, inline <p> and its <b>
+--------------------------------------------------------------------------------------------------
+Q: In what cases is there an exception to inheritance?
+A: -->💡width
+   -->💡height
+   -->💡border
+   -->💡background
+
+   Exception to inheritance -> `properties` DON'T affect text behavior
+--------------------------------------------------------------------------------------------------
+Q: Where do the available fonts come from using font-family?
+A: font: [font-style||font-variant||font-weight||font-stretch] font-size [/line-height] font-family 
+   
+   🌺`System Fonts`: 
+   These are fonts that are available on the user's operating system. 
+   Examples include Arial, Helvetica, Times New Roman, and Courier New. 
+   When specifying a system font in the font-family property, the browser will attempt 
+   to use that font if it's available on the user's system.
+
+   🖥️Windows: Segoe UI, Calibri, Times New Roman, Arial, Consolas
+   🍎MacOS: San Francisco, Helvetica Neue, Times New Roman, Arial, Courier New
+
+   🌺`Web Fonts`: 
+   These are fonts that are hosted on a web server and downloaded by the browser when needed. 
+   Web fonts allow developers to use custom fonts in their web pages, 
+   regardless of whether the user has the font installed on their system. 
+
+   Web fonts are specified using 
+  💡`@font-face` rule in CSS or linked from external sources 
+   like Google Fonts or Adobe Fonts.
+
+Q: What is the difference between using display: none; visibility: hidden; opacity: 0;
+A: 📍`display: none;` ==> when you want to COMPLETELY REMOVE the element from the page layout.
+   📍`visibility: hidden;` ==> hides the element while MAINTAINING its SPACE in the layout.
+   📍`opacity: 0;` ==> visually hides the element and REMOVES it FROM the LAYOUT, 
+   ALLOWING other elements to OCCUPY its SPACE.
+======`opacity: 0;`=========== ==> still RETAIN their ORIGINAL SIZE and SHAPE in the document flow.
+
+Q: How many shadows for text can be set to one element?
+A: ::::Multiple text shadows to one element::::
+  
+  text-shadow: h-shadow v-shadow blur-radius color, h-shadow v-shadow blur-radius color, ...;
+  🌺 .text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+
+  🌺 h2 {
+         text-shadow: 
+           0px 0px 3px blue,
+           0px 0px 7px aqua,
+           0px 0px 10px red
+        }
