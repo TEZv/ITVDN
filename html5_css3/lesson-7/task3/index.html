@@ -5,28 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML-CSS Lesson-7 Task-3 ITVDN</title>
     <style>
-      .menu {
+      .header {
+        margin: auto;
+        width: 75%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+      }
+      .item {
+        color: white;
         font-size: 30px;
-        background-color: blue;
-        color: white;
+        text-decoration: none;
+        padding: 30px;
       }
-      a {
-        display: inline-block;
-        padding: 20px;
-        border-right: 4px solid black;
-      }
-
-      a:visited {
-        color: white;
+      .item:hover {
+        background-color: dimgray;
       }
     </style>
   </head>
   <body>
-    <div class="menu">
-      <a href="./index.html">Home</a>
-      <a href="./index.html">Gallery</a>
-      <a href="./index.html">About</a>
-      <a href="./index.html">Contacts</a>
+    <div class="header">
+      <a class="item" href="./index.html">To Investors</a>
+      <a class="item" href="./index.html">Ads</a>
+      <a class="item" href="./index.html">Vacancies</a>
     </div>
   </body>
 </html>
