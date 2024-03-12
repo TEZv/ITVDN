@@ -1,0 +1,51 @@
+Q: What property is prescribed to enable flexbox?
+A:🔹display: flex; ==> makes elements displayed horizontally (row by default), every parent as a block element
+  🔸display: inline-flex;  ==> the same from `display: flex;` BUT every parent as an inline element (near 1:1)
+--------------------------------------------------------------------------------------------------
+Q: What properties work with the main and transverse axis? Describe everyone's behavior value?
+A: -->💡justify-content ==> child flex-item main flow (axis)
+      🔹🔸==> justify-content: flex-start; (default)
+      🔹🔸==> justify-content: flex-end;
+      🔹🔸==> justify-content: center;
+      🔹🔸==> justify-content: space-between;
+      🔹🔸==> justify-content: space-around;
+
+   -->💡align-items ==> child flex-item cross flow (axis)
+      🔹🔸==> align-items: flex-start; (default)
+      🔹🔸==> align-items: flex-end;
+      🔹🔸==> align-items: center;
+      🔹🔸==> align-items: baseline;
+--------------------------------------------------------------------------------------------------
+Q: What are the dimensions of the flex item when:
+A: ||🌺 not spelled out the width of the element and there is only text?
+    🔹🔸the dimensions of the flex item will be determined BY the CONTENT inside it
+   
+      -->💡the flex item will EXPAND or SHRINK to fit the WIDTH of its CONTENT.
+
+   ||🌺 not spelled out the width of the element and without content?
+    🔹🔸the dimensions of the flex item will collapse to ZERO WIDTH and HEIGHT
+
+      -->📍`Width`: Without content or an explicitly set width, 
+                  the flex item will collapse horizontally to ZERO width.
+      -->📍`Height`: Similarly, without content or specific height, 
+                  the flex item will collapse vertically to ZERO height.
+
+   ||🌺 the specified width and it is greater than the provided width of the container flex?
+    🔹🔸flex items will not overflow the flex container
+
+      -->💡flex items will shrink to fit the available space
+      -->💡flex items will maintain their original size if they cannot shrink further
+
+      -->💡'Flex items' can overflow the container only under specific circumstances:
+
+         📍If the flex container has a fixed width or height set, and the combined widths or heights 
+        of the flex items exceed these dimensions.
+         📍If the flex container has the overflow property set to hidden or scroll, 
+        causing any overflowed content to be hidden or scrolled within the container.
+
+   ||🌺 is the specified width less than the provided width of the container flex?
+    🔹🔸the flex item will typically be displayed at its specified width
+    
+      -->📍any REMAINING space within the container will be DISTRIBUTED 
+      AMONG the OTHER flex items according to their `flex-grow`, `flex-shrink`, and `flex-basis` properties.
+      -->📍justify-content: flex-start;  (default) ==> the flex item will be to the left within the container
