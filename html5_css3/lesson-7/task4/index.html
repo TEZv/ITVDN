@@ -1,32 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML-CSS Lesson-7 Task-4 ITVDN</title>
     <style>
-      .menu {
-        font-size: 30px;
-        background-color: blue;
-        color: white;
-      }
-      a {
-        display: inline-block;
-        padding: 20px;
-        border-right: 4px solid black;
-      }
-
-      a:visited {
-        color: white;
-      }
+        .container {
+            background-color: lightgray;
+            margin: auto;
+            width: 75%;
+            font-size: 25px;
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 20px;
+            padding-bottom: 80px;
+            box-sizing: border-box;
+        }
+        .article {
+            display: flex;
+            flex-direction: column;
+            border-bottom: 2px solid dimgray;
+            padding: 10px; 
+        }
+        a {
+          text-decoration: none;
+        }
+        span {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
     </style>
-  </head>
-  <body>
-    <div class="menu">
-      <a href="./index.html">Home</a>
-      <a href="./index.html">Gallery</a>
-      <a href="./index.html">About</a>
-      <a href="./index.html">Contacts</a>
+</head>
+<body>
+<div class="container">
+    <div class="article">
+        <span>Article created 30 days ago</span>
+        <a href="#">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+            atque ab recusandae repudiandae, optio totam neque quisquam cum ut.
+            Asperiores deleniti est beatae facere similique ducimus sit neque modi
+            nostrum?
+        </a>
     </div>
-  </body>
+    <div class="article">
+        <span>Article created 15 days ago</span>
+        <a href="#">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            dolore, dicta iusto molestias suscipit deserunt harum a, repellat
+            voluptatibus ut sit unde excepturi consectetur, adipisci delectus vel!
+            Aspernatur et placeat officia itaque!
+        </a>
+    </div>
+    <div class="article">
+        <span>Article created 7 days ago</span>
+        <a href="#">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            alias, consectetur iste cupiditate cum sit sequi unde cumque quibusdam
+            molestias ipsa libero reiciendis provident in?
+        </a>
+    </div>
+    <div class="article">
+        <span>Article created 4 days ago</span>
+        <a href="#">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, iusto
+            accusamus ad error, optio aliquam at harum, exercitationem facere
+            labore nesciunt enim delectus officiis. Cumque.
+        </a>
+    </div>
+</div>
+</body>
 </html>

@@ -5,28 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML-CSS Lesson-7 Task-5 ITVDN</title>
     <style>
-      .menu {
-        font-size: 30px;
-        background-color: blue;
-        color: white;
+      .header {
+        background-color: slategray;
+        height: 200px;
+        width: 75%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
       }
-      a {
-        display: inline-block;
-        padding: 20px;
-        border-right: 4px solid black;
+      .center-panel {
+        width: 50%;
+        display: flex;
       }
-
-      a:visited {
-        color: white;
+      .icon {
+        background-color: white;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        margin: auto;
+        display: flex;
+      }
+      img {
+        width: 60%;
+        margin: auto;
       }
     </style>
   </head>
   <body>
-    <div class="menu">
-      <a href="./index.html">Home</a>
-      <a href="./index.html">Gallery</a>
-      <a href="./index.html">About</a>
-      <a href="./index.html">Contacts</a>
+    <div class="header">
+      <div class="center-panel">
+        <div class="icon">
+          <img src="./img/1.svg" alt="" />
+        </div>
+        <div class="icon">
+          <img src="./img/2.svg" alt="" />
+        </div>
+        <div class="icon">
+          <img src="./img/3.svg" alt="" />
+        </div>
+        <div class="icon">
+          <img src="./img/4.svg" alt="" />
+        </div>
+      </div>
     </div>
   </body>
 </html>
