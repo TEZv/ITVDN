@@ -1,0 +1,48 @@
+Q: What values can be prescribed for properties that gain color for their display?
+A:  -->💡rgb ---> rgb(125, 125, 125); --> (0-255)
+    -->💡rgb ---> rgb(125 125 125 / 0.5); rgb(N N N / 80%); --> (0-255 / alpha meaning . or % -> 0-1/0-100%)
+    -->💡rgba ---> rgba(125, 125, 125, 0.25); [deprecated] --> (0-255, alpha meaning . or % -> 0-1/0-100%)
+    -->💡hex ---> #091101 #ffffff --> (0-9 a-f/A-F)
+    -->💡hsl ---> hsl(288, 57%, 80%); --> (Hue 0-360, Saturation 0-100%, Lightness 0-100%)
+    -->💡hsla ---> hsl(360, 70%, 33%, 0.5); --> (Hue <360, Saturation <100%, Lightness <100%, Alpha <1/<100%)
+--------------------------------------------------------------------------------------------------
+Q: What is the difference between using the opacity property and the rgba() function?
+A: -->💡`opacity` property
+     🔹--> the transparency of an entire element and its contents UNIFORMLY using values 
+          ==> from 0 (fully TRANSPARENT) to 1 (fully OPAQUE)
+   
+   -->💡`rgba()` function [deprecated] OR `rgb`(125 125 125 / 0.5); [NEW]
+     🔸--> the transparency of the BACKGROUND color or TEXT color INDIVIDUALLY
+          ==> using RGB color values from 0 to 255 for RGB and 0 to 1 for alpha.
+--------------------------------------------------------------------------------------------------
+Q: Is it possible to add an image via CSS?
+A:   
+   🌺`background`: 
+         `background-image` - a background image of the element; --> add an image via CSS
+         `background-position` - the location of the background image;
+         `background-size` - scaling;
+         `background-repeat` - the repetition of the picture;
+         `background-attachment` - the behavior when scrolling the page;
+         `background-clip` - definition under the boundaries of the element;
+         `background-color` - the background color.
+
+   🌺 background-image: url('path/to/image.jpg');
+--------------------------------------------------------------------------------------------------
+Q: Why adding a picture of an element can not see it when everything is correct 
+according to the background-image code?
+A: 📍Incorrect Path: + background-image: url('img/mini.png'); - background-image: url(img/mini.png);
+   📍File Format: + JPG (JPEG), PNG, GIF
+   📍Background Size and Position: width, height, padding, background-size, background-position
+======`background-size`=========== ==> 133px 133px; 100% 100%; cover, contain, auto
+======`background-position`=========== ==> 30px 50px; 50% -25%; top right bottom left center
+--------------------------------------------------------------------------------------------------
+Q: How to adjust the size of the image added through the background-image?
+A: 🌺 `background-size`: cover; /* Adjust the size to cover the entire element */
+      background-size: 200px 200px, 600px 600px; (added 2 images as bg)
+--------------------------------------------------------------------------------------------------
+Q: Is it possible to move such a picture element and bring it beyond?
+A: 🌺 `background-position`: -50px -50px; 
+      /* Adjust the position to move the image beyond the top-left corner */
+
+      `background-attachment`: fixed;
+      /* Fixed the element while scrolling */ 
