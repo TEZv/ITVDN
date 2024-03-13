@@ -3,17 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML-CSS Lesson-5 Additional task ITVDN</title>
-
+    <title>HTML-CSS Lesson-8 Additional task ITVDN</title>
     <style>
-      .title {
-        width: 400px;
-        background-color: lightpink;
-        margin: 100px auto;
+      table {
+        width: 30%;
+        border-collapse: separate;
+        margin: 30px auto;
+      }
+      caption {
+        caption-side: top;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      thead {
+        background-color: lightcoral;
+      }
+      td, th {
+        padding: 10px;
+        text-align: center;
+        border: 2px solid salmon;
+      }
+      td {
+        background-color: pink;
+        border-radius: 40%;
+      }
+      th {
+        border-radius: 2%;
       }
     </style>
   </head>
   <body>
-    <h1 class="title">Lorem ipsum dolor sit amet.</h1>
+    <table>
+      <caption>
+        NOT Simple Table
+      </caption>
+      <thead>
+        <tr>
+          <th>Header 1</th>
+          <th>Header 2</th>
+          <th>Header 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+        </tr>
+        <tr>
+          <td>Data 4</td>
+          <td>Data 5</td>
+          <td>Data 6</td>
+        </tr>
+        <tr>
+          <td>Data 7</td>
+          <td>Data 8</td>
+          <td>Data 9</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
