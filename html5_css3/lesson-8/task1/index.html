@@ -5,28 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML-CSS Lesson-8 Task-1 ITVDN</title>
     <style>
-      .menu {
-        font-size: 30px;
-        background-color: blue;
-        color: white;
+      ul {
+        list-style-type: none;
+        padding: 0;
       }
-      a {
-        display: inline-block;
-        padding: 20px;
-        border-right: 4px solid black;
+      li {
+        margin-bottom: 10px;
+        border-radius: 20px;
+        padding: 10px;
+        border: 1px solid lightslategray;
       }
-
-      a:visited {
-        color: white;
+      li:nth-child(even) {
+        background-color: lightgrey;
       }
     </style>
   </head>
   <body>
-    <div class="menu">
-      <a href="./index.html">Home</a>
-      <a href="./index.html">Gallery</a>
-      <a href="./index.html">About</a>
-      <a href="./index.html">Contacts</a>
-    </div>
+    <ul>
+      <li>Lorem, ipsum.</li>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+      <li>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+        possimus.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus
+        eligendi repellendus.
+      </li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+    </ul>
   </body>
 </html>
