@@ -1,0 +1,75 @@
+Q: What types of lists were considered in the lesson? What labels are used for lists?
+A:🔹<ul><li></li></ul> -> unordered list with the black circle marker by default ⚫
+  🔸<ol><li></li></ol> -> ordered list with the numeric numbers marker by default 1️⃣2️⃣3️⃣...
+  🔹<dl><dt></dt><dd></dd></dl> -> description list with no marker by default but with <dd> indentation
+--------------------------------------------------------------------------------------------------
+Q: List tags for tables.
+A: -->💡<table></table>
+      🔹🔸==> <caption></caption>
+      🔹🔸==> <thead></thead>
+      🔹🔸==> <tbody></tbody>
+   -->💡<thead></thead>
+      🔹🔸==> <tr>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+               </tr>
+
+   -->💡<tbody></tbody>
+      🔹🔸==> <tr>
+                  <td></td>
+                  <td></td>
+               </tr>
+      🔹🔸==> <tr>
+                  <td></td>
+                  <td></td>
+               </tr>
+--------------------------------------------------------------------------------------------------
+
+Q: Describe what each table tag is for.
+A: -->💡<table></table> ---> to create a table
+      🔹🔸==> <caption></caption> ---> to give a caption description to the table
+      🔹🔸==> <thead></thead> ---> to create a head of the table
+      🔹🔸==> <tbody></tbody> ---> to create a body of the table
+   -->💡<thead></thead>
+      🔹🔸==> <tr> ---> to create a row of the table
+                  <th></th> ---> to create a head titles to cell description
+               </tr>
+
+   -->💡<tbody></tbody>
+      🔹🔸==> <tr> ---> to create a row of the table
+                  <td></td> ---> to create a cell description
+               </tr>
+--------------------------------------------------------------------------------------------------
+
+Q: How are pseudo-classes written and run in CSS?
+A: 🌺:hover, :active, :focus --> : (+ the desirable element state)
+
+   📍p:hover {} -> makes <p></p> element different after pointing the cursor
+   📍a:active {} -> makes <a></a> element different after pressing down the primary mouse button
+   📍a:visited {} -> makes <a></a> element different once the link has been visited by the user
+--------------------------------------------------------------------------------------------------
+
+Q: Explain what combined selectors are used for and how to prescribe them?
+A: 🌺 Combined selectors are used with nesting elements when we need to select distant elements
+   parent -> child (parent->) -> child (parent->) -> child (parent->) -> child (parent->) -> child
+
+   +also, when we select 1 element and want to give it the bigger priority
+
+   📍.menu a {}
+   📍 .list li a {}
+   📍 a .menu {}
+--------------------------------------------------------------------------------------------------
+
+Q: How does the CSS priority work with the combined selector?
+A: 🌺 > priority --> > chances styles will be applied
+
+   📍.text {} -> priority 10
+   📍h1 span -> priority 2 
+   (2 (tag selectors) < 10 (class selector))
+
+   📍.description b {} -> priority 11 (summarize 10+1)
+   📍.bold {} -> priority 10
+   📍#main-button {} -> priority 100
+   (10 (class selector) < 11 (class selector+tag selector) < 100 (id selector))
