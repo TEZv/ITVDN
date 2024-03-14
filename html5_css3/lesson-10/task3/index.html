@@ -6,25 +6,96 @@
     <title>HTML-CSS Lesson-10 Task-3 ITVDN</title>
 
     <style>
-      .block {
-        width: 500px;
-        border: 4px solid black;
+      body {
+        font-family: Corbel, sans-serif;
+        background-color: #dfdbf5;
+        color: #646f75;
+        margin: 0;
+        padding: 0;
       }
-      .text {
-        background-color: lightgrey;
-        font-size: 30px;
-        width: 350px;
-        margin-left: auto;
-        margin-right: 20px;
+
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 64px;
+        color: #14931f;
+      }
+
+      h2,
+      .price {
+        font-size: 48px;
+      }
+
+      p,
+      button {
+        font-size: 24px;
+      }
+
+      ul,
+      footer {
+        font-size: 18px;
+      }
+
+      header,
+      nav,
+      section,
+      article,
+      aside,
+      footer {
+        background-color: #dfdbf5;
+        margin-bottom: 20px;
+        padding: 20px;
+        border: 2px solid #14931f;
+        border-radius: 10px;
+      }
+
+      button {
+        background-color: #14931f;
+        color: #dfdbf5;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
-    <div class="block">
-      <p class="text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum.
-        Lorem
-      </p>
+    <div class="container">
+      <header>
+        <h1>Main Heading</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li>Menu Item 1</li>
+          <li>Menu Item 2</li>
+          <li>Menu Item 3</li>
+        </ul>
+      </nav>
+
+      <section>
+        <h2>Sub Heading</h2>
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            convallis metus ut feugiat fermentum.
+          </p>
+          <button>Click Here</button>
+        </article>
+      </section>
+
+      <aside>
+        <h2>Aside Heading</h2>
+        <p class="price">$99.99</p>
+      </aside>
+
+      <footer>
+        <p>&copy; 2024 My Website</p>
+      </footer>
     </div>
   </body>
 </html>
