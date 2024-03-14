@@ -1,0 +1,160 @@
+Q: What purpose are semantic tags used?
+A:🔹meaning and structure to the CONTENT of a web page, making it 
+more UNDERSTANDABLE for both HUMANS  (users/developers) and MACHINES 
+(such as search engines and screen readers)
+
+    -->💡Content
+    -->💡Programs and Engines
+    -->💡Accessibility and Screen Readers
+    -->💡Interaction
+--------------------------------------------------------------------------------------------------
+Q: What tags did you remember? What purpose are they used?
+A: -->💡<header> --> defines the INTRODUCTORY content of a page or section.
+   -->💡<h1>-<h6> --> defines the HEADING content of a page or section.
+   -->💡<nav> --> indicates a section with NAVIGATION links.
+
+   -->💡<main> --> represents the PRIMARY CONTENT of the document.
+   -->💡<section> --> GROUPS related content together.
+   -->💡<article> --> represents a SELF-CONTAINED piece of content.
+   -->💡<aside> --> defines CONTENT TANGENTIALLY related to the content around it.
+
+   -->💡<footer> --> contains the CONTACT INFO/NAVIGATION of a page or section.
+                 author, copyright, contact information, and other related content
+--------------------------------------------------------------------------------------------------
+Q: Is it correct to reuse semantic tags on the page?
+A: 🔹🔸==> Yes, it is CORRECT to REUSE semantic tags on a page. 
+   Semantic HTML tags are designed to PROVIDE MEANING and STRUCTURE to the content of a web page. 
+   
+   🔹🔸==> Reusing these tags helps maintain CONSISTENCY, improves ACCESSIBILITY, and ENHANCES 
+   the overall ORGANIZATION of the document. 
+
+   🔹🔸==> For example, you can have 
+                  multiple 
+          `<article>` tags 
+                🔹🔸to represent different ARTICLES on a blog page, 
+                OR multiple 
+          `<section>` tags 
+                🔹🔸to organize CONTENT into distinct SECTIONS. 
+   🔹🔸==> Reusing semantic tags appropriately contributes to the CLARITY 
+                                                and MAINTAINABILITY of the HTML code.
+   
+
+   🌺EXCEPTIONS: <main>: Represents the main content area of a document. 
+   It's intended to contain UNIQUE, essential content. (CAN BE USED <meta hidden>)
+
+   🌺CORRECT: <body>
+                  <header></header>
+                  <main></main>
+                  <footer></footer>
+               </body>
+
+   🌺CORRECT: <body>
+                  <header>
+                     <nav></nav>
+                  </header>
+                  <main>
+                     <aside></aside>
+                     <section>
+                        <article>
+                           <h2></h2>
+                           <p></p>
+                        </article>
+                        <article></article>
+                     </section>
+                     <section>
+                        <article></article>
+                     </section>
+                     <section>
+                        <article></article>
+                     </section>
+                  </main>
+                  <footer>
+                     <nav></nav> (can be used)
+                  </footer>
+               </body>
+
+   🌺CORRECT:
+                  <article>
+                     <header>
+                        <h2></h2> 
+                        <time datetime="2012-04-20">
+                        </time>
+                     </header>
+                     <p></p>
+                     <footer>
+                        <p></p>
+                        <a href="#"></a>
+                     </footer>
+                  </article>
+
+Q: Which tag attachments will be incorrect?
+A: 📍NOT TO DO:
+           📍<header>
+                <nav></nav>
+                <footer></footer>
+                <main>
+                  <header></header>
+                  <footer></footer>
+                  <nav></nav>
+               </main>
+               <footer>
+                  <header></header>
+                  <main></main>
+                  <nav></nav>
+               </footer>
+               <nav>
+                  <header></header>
+                  <main></main>
+                  <footer></footer>
+               </nav>
+            </header>
+
+   📍NOT TO DO:
+            📍 <main>
+                  <nav></nav> (not recommended but can be used)
+                  <footer></footer>
+                  <header>
+                     <nav></nav>
+                     <footer></footer>
+                  </header>
+                  <footer>
+                     <nav></nav>
+                     <header></header>
+                  </footer>
+                  <nav>
+                     <header></header>
+                     <footer></footer>
+                  </nav>
+               </main>
+
+   📍NOT TO DO:
+   📍          <footer>
+                  <header></header>
+                  <main></main>
+                  <header>
+                     <nav></nav>
+                     <main></main>
+                  </header>
+                  <main>
+                     <nav></nav>
+                     <header></header>
+                  </main>
+                  <nav>
+                     <header></header>
+                     <main></main>
+                  </nav>
+               </footer>   
+           
+
+Q: All semantic tags have a unique visual appearance?
+A: 🌺 No, semantic tags DO NOT have a UNIQUE VISUAL appearance by default. 
+      
+      Semantic tags such as <header>, <footer>, <nav>, <main>, <section>, <article>, 
+      and others are designed to PROVIDE MEANING AND STRUCTURE 
+      to the CONTENT of a web page rather than dictate its visual presentation.
+
+      🔹🔸==> The VISUAL APPEARANCE of semantic tags is typically defined by 
+                                                         💡`CSS` styles applied to them. 
+
+      🔹🔸While browsers may have DEFAULT styles for some SEMANTIC tags, 
+      these STYLES are usually MINIMAL and DO NOT provide a UNIQUE appearance.
