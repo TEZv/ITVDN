@@ -69,10 +69,10 @@ ITVDN-Front-End/
 |   |   |-- task3/          # Set flex's; background-... properties to <div> class="img-bg1/bg2/bg3"
 |   |   |-- l9_qa.txt       # Contains Q&A from the task  
 |   |-- lesson-10/
-|   |   |--additional_task  # Set margin: 100px auto; to <h1 class="title"></h1>
-|   |   |-- task1/          # Set display: inline-block; to <a href="./index.html"></a>
-|   |   |-- task2/          # Set margin-left: auto; margin-right: 20px; to <p></p>
-|   |   |-- task3/          # Set nav a:hover {}, ul.pagination, footer and other elements to styles
+|   |   |--additional_task  # Set <header>, <nav>, <main>, <section>, <footer> semantic tags
+|   |   |-- task1/          # Set CORE and UNIQUE <header>, <main>, <footer> semantic tags
+|   |   |-- task2/          # Set <header>, <main>, <h1>, <h2>, <p>, <footer> semantic tags
+|   |   |-- task3/          # Set <nav>, <ul>, <article>, <aside> to CORE semantic tags
 |   |   |-- l10_qa.txt       # Contains Q&A from the task  
 |-- javascript_basics/                    
 |-- README.md                
