@@ -1,9 +1,12 @@
 # Front-End Path with HTML/CSS/JS 
 
+## ITVDN Resources
+https://itvdn.com/ua/video/html-css-starter-ua
+
 ## Structure
 
 ```
-ITVDN/
+ITVDN-Front-End/
 |-- html5_css3/
 |   |-- .pdf/               # Contains the tasks in the .pdf format
 |   |-- lesson-1/
@@ -23,7 +26,7 @@ ITVDN/
 |   |   |-- task4/          # Usage of tag and class selectors; background-color and color properties
 |   |   |-- l3_qa.txt       # Contains Q&A from the task
 |   |-- lesson-4/
-|   |   |--additional_task  # Create <div class="container"> and set {width: 200px; height: 200px;} to it
+|   |   |--additional_task  # Create <div class="container"> and set {width: 200px; height: 200px;}
 |   |   |-- task1/          # Set padding%/width% to icons, add <img src="">
 |   |   |-- task2/          # Set padding, background-color to <p>
 |   |   |-- task3/          # Set border-left-width, border-left-style and its color to <p>
@@ -54,20 +57,23 @@ ITVDN/
 |   |   |-- task5/          # Set flex properties, margin: auto -> header and icon
 |   |   |-- l7_qa.txt       # Contains Q&A from the task  
 |   |-- lesson-8/
-|   |   |--additional_task  # Set margin: 100px auto; to <h1 class="title"></h1>
-|   |   |-- task1/          # Set display: inline-block; to <a href="./index.html"></a>
-|   |   |-- task2/          # Set margin-left: auto; margin-right: 20px; to <p></p>
-|   |   |-- l7_qa.txt       # Contains Q&A from the task  
+|   |   |--additional_task  # Create <<table> with <thead> and <tbody> tags with styles
+|   |   |-- task1/          # Set li:nth-child(even) {}
+|   |   |-- task2/          # Set li:first-child {}
+|   |   |-- task3/          # Set nav a:hover {}, ul.pagination, footer and other elements to styles
+|   |   |-- l8_qa.txt       # Contains Q&A from the task  
 |   |-- lesson-9/
-|   |   |--additional_task  # Set margin: 100px auto; to <h1 class="title"></h1>
-|   |   |-- task1/          # Set display: inline-block; to <a href="./index.html"></a>
-|   |   |-- task2/          # Set margin-left: auto; margin-right: 20px; to <p></p>
-|   |   |-- l7_qa.txt       # Contains Q&A from the task  
+|   |   |--additional_task  # Set background-... properties to <div>
+|   |   |-- task1/          # Set flex's; set background-... properties to <div class="image"></div>
+|   |   |-- task2/          # Set flex's; set background-... properties to <div> class="html"/="css"
+|   |   |-- task3/          # Set flex's; background-... properties to <div> class="img-bg1/bg2/bg3"
+|   |   |-- l9_qa.txt       # Contains Q&A from the task  
 |   |-- lesson-10/
 |   |   |--additional_task  # Set margin: 100px auto; to <h1 class="title"></h1>
 |   |   |-- task1/          # Set display: inline-block; to <a href="./index.html"></a>
 |   |   |-- task2/          # Set margin-left: auto; margin-right: 20px; to <p></p>
-|   |   |-- l7_qa.txt       # Contains Q&A from the task  
+|   |   |-- task3/          # Set nav a:hover {}, ul.pagination, footer and other elements to styles
+|   |   |-- l10_qa.txt       # Contains Q&A from the task  
 |-- javascript_basics/                    
 |-- README.md                
 ```
